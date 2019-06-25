@@ -14,19 +14,19 @@ import time
 logger = LogGen(logger='BasePage').getlog()
 
 class BasePage():
-    def __init__(self, driver, url):
+    def __init__(self, driver):
         self.driver = driver
-        self.base_url = url
 
     def find_element(self,*loc):
         '''传入需要定位的元素属性，返回ele实例'''
         try:
-            WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(loc))
-            return self.driver.find_element(*loc)
+            ele = WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(loc))
+            return ele
         except:
             #当找不到元素的时候调用截图函数
             pic_name(self.driver)
             logger.info(u"%s 页面中未能找到%s 元素"%(self, loc))
+            return False
 
     def senk_keys(self,loc,value):
         '''传入需要输入内容的元素属性和输入值'''

@@ -15,6 +15,7 @@ class LoginPage(BasePage):
     username = (By.NAME,t['username'])
     password = (By.NAME,t['password'])
     submit = (By.XPATH,t['login'])
+    error = (By.XPATH,t['error_text'])
 
     def input_user(self,user):
         self.senk_keys(self.username,user)
@@ -27,3 +28,8 @@ class LoginPage(BasePage):
     def login(self):
         self.find_element(*self.submit).click()
         logger.info('点击登录按钮')
+        er = self.find_element(*self.error)
+        logger.info('登录状态:%s.'%er.text)
+        return er
+
+

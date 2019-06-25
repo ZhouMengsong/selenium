@@ -11,6 +11,7 @@ class Api():
         'password':'password',
         'login':'//*[@id="app"]/div/form/button',
         'logout':'#dropdown-menu-6689 > li.el-dropdown-menu__item.el-dropdown-menu__item--divided > span',
+        'error_text':'//div[@role="alert"]/p'
     }
 
 class User():
@@ -32,4 +33,15 @@ class FxiaoApi():
         'get_adrId':'/n/my/address?pageSize=10&pageIndex=1',#用户获取收货地址id
         'get_ordId':'/g/order/c/submit',#升级代理获取订单id
         'order_succse':'/g/wx/order/query'#订单支付成功
+    }
+
+class Email():
+    enm = {
+        'user':'13386578071@163.com',
+        'pwd':'Z944809260',
+        'sender':'13386578071@163.com',
+        'receiver':'13386578071@163.com',
+        'subject':'秀店商城登录测试报告',
+        'content':'测试报告内容如上',
+        'smtp':'smtp.163.com'
     }

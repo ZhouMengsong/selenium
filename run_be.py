@@ -11,20 +11,13 @@ import time
 import unittest
 import HTMLTestRunner
 from BeautifulReport import BeautifulReport
+from common.ReadEmail import send_email
+from common.GetFilePath import get_path
+from config.config import Email
 
 CASE_PATH = os.path.abspath('case')
 REPORT_PATH = 'report/report.html'
 
-# def load_tests(loader, tests, pattern):
-#     suite = unittest.defaultTestLoader.discover(CASE_PATH,pattern='xiudian_*.py')
-#     with open(REPORT_PATH,'wb') as files:
-#         runner = HTMLTestRunner.HTMLTestRunner(
-#             stream=files,
-#             title='TestReport_{0}'.format(time.time()),
-#             description=u'TestReport',
-#             tester = 'zhoumengsong'
-#         )
-#         runner.run(suite)
 def load_tests(loader, tests, pattern):
     suite = unittest.defaultTestLoader.discover(CASE_PATH,pattern='test_*.py')
     result = BeautifulReport(suite)
@@ -34,5 +27,8 @@ def load_tests(loader, tests, pattern):
 if __name__ == '__main__':
     try:
         unittest.main()
+        arg = Email.enm
+        path = get_path('.\\report')
+        send_email(arg, path)
     except(AttributeError,ArithmeticError,TypeError):
         pass

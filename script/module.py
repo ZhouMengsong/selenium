@@ -144,8 +144,8 @@ def read_testcase(testcasefile):
 
 if __name__ == '__main__':
     # read_testsuite('')
-    # tspath = os.path.abspath('..')
-    # tsname = tspath + '\\data\\test1.xlsx'
-    # read_testsuite(tsname)
+    tspath = os.path.abspath('..')
+    tsname = tspath + '\\data\\test1.xlsx'
+    read_testsuite(tsname)
     pass
 

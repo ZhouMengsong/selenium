@@ -15,7 +15,7 @@ class LogGen():
         self.logger.setLevel(logging.INFO)
 
         lt = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
-        tspath = os.path.abspath('.')
+        tspath = os.path.abspath('..')
         tsname = tspath + '\\logs\\'+lt+'.log'
         fileh = logging.FileHandler(tsname)
         fileh.setLevel(logging.INFO)
@@ -25,6 +25,8 @@ class LogGen():
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
         fileh.setFormatter(formatter)
         console.setFormatter(formatter)
+
+        #给logger添加handle
         self.logger.addHandler(fileh)
         self.logger.addHandler(console)
         # self.logger.info('hello,first test')

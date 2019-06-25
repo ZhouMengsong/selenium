@@ -1,14 +1,18 @@
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
-# __author__ = "Q1mi"
-# Date: 2019/6/4
+import unittest
+
+import configparser
+class Test(unittest.TestCase):
+
+    def test_one(self):
+        '''test_one'''
+        a=10
+        b=10
+        self.assertEqual(a,b)
 
 
-from selenium import webdriver
-import time
-
-driver = webdriver.Chrome()
-driver.get('http://www.baidu.com')
-print(driver.current_url)
-time.sleep(2)
-driver.quit()
+if __name__ == '__main__':
+    test = unittest.TestSuite()
+    loader = unittest.TestLoader()
+    test.addTest(loader.loadTestsFromTestCase(Test))
+    t = unittest.TextTestRunner()
+    t.run(test)
