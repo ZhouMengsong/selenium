@@ -4,6 +4,8 @@
 # Date: 2019/5/15
 
 import xlrd
+from xlutils.copy import copy
+import openpyxl
 
 def read_xlsx(xlsx_path):
     '''
@@ -28,7 +30,26 @@ def read_xlsx(xlsx_path):
 
     return list
 
-# print(read_xlsx('../data/login.xlsx'))
+
+def write_xlsx(xlsx_path,row=None,col=None,data=None):
+    if  xlsx_path.split('.')[-1] == 'xls':
+        rb = xlrd.open_workbook(xlsx_path)
+        wb = copy(rb)
+        ws = wb.get_sheet(0)
+        ws.write(row,col,data)
+        wb.save(xlsx_path)
+
+    if  xlsx_path.split('.')[-1] == 'xlsx':
+        wb = openpyxl.load_workbook(xlsx_path)
+        sheet = wb.worksheets[0]
+        sheet.cell(row,col).value = data
+        wb.save(xlsx_path)
+
+    else:
+        return '文件格式错误'
+
+print(read_xlsx('../data/test_data.xlsx'))
+# print(write_xlsx('../data/test_data.xlsx',2,5,'测试通过'))
 
 
 

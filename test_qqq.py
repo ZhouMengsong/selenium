@@ -1,18 +1,5 @@
-import unittest
+a = [1,2,3,4,5]
 
-import configparser
-class Test(unittest.TestCase):
-
-    def test_one(self):
-        '''test_one'''
-        a=10
-        b=10
-        self.assertEqual(a,b)
-
-
-if __name__ == '__main__':
-    test = unittest.TestSuite()
-    loader = unittest.TestLoader()
-    test.addTest(loader.loadTestsFromTestCase(Test))
-    t = unittest.TextTestRunner()
-    t.run(test)
+w,e,r,t,y = a
+print(w,e,r,t,y)
+print(type(a.index(5)))
