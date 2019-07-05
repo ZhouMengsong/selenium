@@ -13,9 +13,9 @@ import time
 
 # 获取路径
 curpath = os.path.dirname(os.path.realpath(__file__))
-casepath = os.path.join(curpath, "case")
+casepath = os.path.join(curpath, "unit_case")
 if not os.path.exists(casepath):
-    print("测试用例需放到‘case’文件目录下")
+    print("测试用例需放到‘unit_case’文件目录下")
     os.mkdir(casepath)
 reportpath = os.path.join(curpath, "report")
 if not os.path.exists(reportpath):
@@ -33,7 +33,7 @@ def add_case(case_path=casepath, rule="test*.py"):
 def run(test_suit):
     result = BeautifulReport(test_suit)
     tl = time.strftime('%Y%m%d%H%M',time.localtime())
-    result.report(filename='report{}.html'.format(tl), description='测试deafult报告', log_path='report')
+    result.report(filename='report{}.html'.format(tl), description='测试deafult报告', log_path=reportpath)
 
 if __name__ == "__main__":
     # 用例集合

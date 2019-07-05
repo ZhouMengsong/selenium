@@ -5,7 +5,6 @@ from pages.loginpage import LoginPage
 from selenium import webdriver
 import unittest
 from common.LogGen import LogGen
-import pytest
 
 class Test_Sale_Item(unittest.TestCase,LoginPage,MainPage,SaleItemPage):
     logger = LogGen(logger='出售中的商品').getlog()
@@ -36,6 +35,7 @@ class Test_Sale_Item(unittest.TestCase,LoginPage,MainPage,SaleItemPage):
 
     #登录
     def test_1_login(self):
+        '''登录成功'''
         self.logger.info("=======输入用户名和密码登录系统======")
         self.input_user('ecshop')
         self.input_pwd('123456')
@@ -43,6 +43,7 @@ class Test_Sale_Item(unittest.TestCase,LoginPage,MainPage,SaleItemPage):
 
     #先进入出售中的商品页面
     def test_2_into_testpage(self):
+        '''切换至出售中商品页面'''
         self.logger.info("=======进入出售中的商品页面======")
         self.into_item()
         self.into_sale_item()
@@ -50,8 +51,8 @@ class Test_Sale_Item(unittest.TestCase,LoginPage,MainPage,SaleItemPage):
         self.assertEqual(page_title,'出售中的商品')
 
     #测试搜索功能是否成功
-    @pytest.mark.smoke
     def test_3_search(self):
+        '''测试正常搜索功能'''
         self.logger.info("=======测试筛选功能======")
         # self.item_filter('手机数码')
         self.item_name('小米')

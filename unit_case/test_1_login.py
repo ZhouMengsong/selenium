@@ -9,16 +9,14 @@ import unittest
 from pages.loginpage import LoginPage
 from ddt import ddt,data,unpack
 from common.Read_data import read_xlsx,write_xlsx
+from common.FilePath import data_path
 import os
-import time
-import json
-import pytest
 
 
 @ddt
 class Test_Cookie(unittest.TestCase,LoginPage):
     '''dring for test'''
-    case_path = os.path.abspath('..') + '\\data\\test_data.xlsx'
+    case_path = data_path+'\\test_data.xlsx'
     rb = read_xlsx(case_path)
 
     # @classmethod
@@ -68,6 +66,3 @@ class Test_Cookie(unittest.TestCase,LoginPage):
     def tearDown(self):
         self.driver.quit()
 
-
-if __name__ == '__main__':
-    unittest.main()

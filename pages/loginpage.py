@@ -4,11 +4,9 @@
 # Date: 2019/5/15
 
 from pages.basepage import *
-from common.ReadConfig import test2
 from common.LogGen import LogGen
 from config.login_data import LoginData as ld
 
-t = test2()
 logger = LogGen(logger='LoginPage').getlog()
 class LoginPage(BasePage):
     '''设置登录操作中所用到的三个元素属性，并以元组形式保存'''

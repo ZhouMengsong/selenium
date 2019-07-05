@@ -6,7 +6,6 @@
 #加载匀速隐性显示超市设置函数
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from common.CapPic import pic_name
 from common.LogGen import LogGen
 from common.FilePath import *
 import datetime
@@ -45,8 +44,8 @@ class BasePage():
             return ele
         except Exception as e:
             #当找不到元素的时候调用截图函数
-            pic_name(self.driver)
             logger.info(u"%s 页面中未能找到%s 元素"%(self, loc))
+            self.get_windows_img()
             raise e
 
 
@@ -56,6 +55,7 @@ class BasePage():
             return eles
         except Exception as e:
             logger.info(u"%s 页面中未能找到%s 元素" % (self, loc))
+            self.get_windows_img()
             raise e
 
     #页面元素可点击后返回
@@ -65,6 +65,7 @@ class BasePage():
             return ele
         except:
             logger.info("%s当前页面元素无法点击%s" % (self, loc))
+            self.get_windows_img()
             raise
 
     def senk_keys(self,loc,value):
