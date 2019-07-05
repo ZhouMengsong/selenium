@@ -11,6 +11,7 @@ def get_path(path):
     filepath=os.path.join(path,lists[-1])
     return filepath
 
+
 if __name__=='__main__':
     path=r'..\report'
     re=get_path(path)

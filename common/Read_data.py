@@ -48,7 +48,7 @@ def write_xlsx(xlsx_path,row=None,col=None,data=None):
     else:
         return '文件格式错误'
 
-print(read_xlsx('../data/test_data.xlsx'))
+# print(read_xlsx('../data/test_data.xlsx'))
 # print(write_xlsx('../data/test_data.xlsx',2,5,'测试通过'))
 
 

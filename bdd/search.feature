@@ -3,7 +3,7 @@ Feature: i want to search for products
     Given i am on login page
     When i input username <username>
     When i input password <password>
-    When i will click submit <password>
+    When i will click submit
     Then i should see notice <error>
 
 Examples: By category

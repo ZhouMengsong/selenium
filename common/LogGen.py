@@ -7,6 +7,7 @@
 import logging
 import os
 import time
+from common.FilePath import *
 
 
 class LogGen():
@@ -15,8 +16,8 @@ class LogGen():
         self.logger.setLevel(logging.INFO)
 
         lt = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
-        tspath = os.path.abspath('..')
-        tsname = tspath + '\\logs\\'+lt+'.log'
+        # tspath = os.path.abspath('..')
+        tsname = logs_path+'\\'+lt+'.log'
         fileh = logging.FileHandler(tsname)
         fileh.setLevel(logging.INFO)
 
@@ -33,3 +34,6 @@ class LogGen():
 
     def getlog(self):
         return self.logger
+
+if __name__ == '__main__':
+    LogGen('homepamge').getlog().error('test for ing')
