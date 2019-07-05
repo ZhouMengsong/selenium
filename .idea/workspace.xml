@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a04fd064-6039-449b-8537-634efc945046" name="Default Changelist" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/case/ItemCase/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/case/conftest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/case/test_3_baidu.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/FilePath.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/Pandas.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/upload.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/login_data.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/salepropage.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/XiuDian.iml" afterPath="$PROJECT_DIR$/.idea/XiuDian.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/case/ItemCase/conftest.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/case/ItemCase/test_1_xiudian.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/case/ItemCase/test_2_xiudian.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BrowserOpen.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bdd/search.feature" afterPath="$PROJECT_DIR$/bdd/search.feature" />
-      <change beforePath="$PROJECT_DIR$/bdd/steps/search_steps.py" afterPath="$PROJECT_DIR$/bdd/steps/search_steps.py" />
-      <change beforePath="$PROJECT_DIR$/case/_trial_temp-1/_trial_marker" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/case/_trial_temp-2/_trial_marker" afterPath="" />
       <change beforePath="$PROJECT_DIR$/case/test_eight.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/case/test_five.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/case/test_four.py" afterPath="" />
@@ -27,22 +15,6 @@
       <change beforePath="$PROJECT_DIR$/case/test_six.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/case/test_three.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/case/test_two.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common/GetFilePath.py" afterPath="$PROJECT_DIR$/common/GetFilePath.py" />
-      <change beforePath="$PROJECT_DIR$/common/LogGen.py" afterPath="$PROJECT_DIR$/common/LogGen.py" />
-      <change beforePath="$PROJECT_DIR$/common/Read_data.py" afterPath="$PROJECT_DIR$/common/Read_data.py" />
-      <change beforePath="$PROJECT_DIR$/data/test_data.xlsx" afterPath="$PROJECT_DIR$/data/test_data.xlsx" />
-      <change beforePath="$PROJECT_DIR$/pages/basepage.py" afterPath="$PROJECT_DIR$/pages/basepage.py" />
-      <change beforePath="$PROJECT_DIR$/pages/loginpage.py" afterPath="$PROJECT_DIR$/pages/loginpage.py" />
-      <change beforePath="$PROJECT_DIR$/pages/mainpage.py" afterPath="$PROJECT_DIR$/pages/mainpage.py" />
-      <change beforePath="$PROJECT_DIR$/picture/201906031655.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/picture/201906031704.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/picture/201906191759.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/picture/201906191801.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/picture/201906191807.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/picture/201906191808.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/picture/201906201038.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test1.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_qqq.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,6 +56,7 @@
     <SUITE FILE_PATH="coverage/selenium$Twisted_Trial_in_test_3_baidu_py.coverage" NAME="Twisted Trial in test_3_baidu.py Coverage Results" MODIFIED="1562309621460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/XiuDian$GetFilePath.coverage" NAME="GetFilePath Coverage Results" MODIFIED="1560305976735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/selenium$Twisted_Trial_in_test_qqq_py.coverage" NAME="Twisted Trial in test_qqq.py Coverage Results" MODIFIED="1562231237834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/selenium$Twisted_Trial_in_test_2_sale_py.coverage" NAME="Twisted Trial in test_2_sale.py Coverage Results" MODIFIED="1562310047700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/selenium$Twisted_Trial_in_test_five_py.coverage" NAME="Twisted Trial in test_five.py Coverage Results" MODIFIED="1562058924768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/selenium_master$Twisted_Trial_for_test_seven_Test_Cookie_test_login_2.coverage" NAME="Twisted Trial for test_seven.Test_Cookie.test_login_2 Coverage Results" MODIFIED="1561549620054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/selenium$search_feature_Search.coverage" NAME="search.feature:Search Coverage Results" MODIFIED="1561779567518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -143,8 +116,8 @@
       <file leaf-file-name="test_1_login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case/test_1_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="177">
+              <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -153,8 +126,8 @@
       <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="231">
+              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -164,7 +137,7 @@
         <entry file="file://$PROJECT_DIR$/case/test_3_baidu.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -172,11 +145,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_2_sale.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_2_sale.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case/test_2_sale.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+            <state relative-caret-position="756">
+              <caret line="48" column="43" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+              <folding>
+                <element signature="e#16#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_1_xiudian.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/ItemCase/test_1_xiudian.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/ItemCase/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_2_xiudian.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/ItemCase/test_2_xiudian.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -185,8 +192,8 @@
       <file leaf-file-name="loginpage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/loginpage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            <state relative-caret-position="199">
+              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
               <folding>
                 <element signature="e#88#116#0" expanded="true" />
               </folding>
@@ -194,11 +201,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="login_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/login_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="27" column="66" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="basepage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/basepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="314">
+              <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
               <folding>
                 <element signature="e#104#161#0" expanded="true" />
               </folding>
@@ -237,10 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/__init__.py" />
-        <option value="$PROJECT_DIR$/script/__init__.py" />
-        <option value="$PROJECT_DIR$/case/__init__.py" />
-        <option value="$PROJECT_DIR$/script/os_path.py" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/common/autodeploy.py" />
         <option value="$PROJECT_DIR$/case/test_three.py" />
@@ -288,6 +301,10 @@
         <option value="$PROJECT_DIR$/pages/basepage.py" />
         <option value="$PROJECT_DIR$/case/conftest.py" />
         <option value="$PROJECT_DIR$/case/test_3_baidu.py" />
+        <option value="$PROJECT_DIR$/case/test_2_sale.py" />
+        <option value="$PROJECT_DIR$/case/ItemCase/test_2_xiudian.py" />
+        <option value="$PROJECT_DIR$/case/ItemCase/conftest.py" />
+        <option value="$PROJECT_DIR$/case/ItemCase/test_1_xiudian.py" />
       </list>
     </option>
   </component>
@@ -334,6 +351,16 @@
             </path>
             <path>
               <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -369,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Twisted Trial in test_3_baidu.py">
+  <component name="RunManager" selected="Python tests.Twisted Trial in test_2_sale.py">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -438,6 +465,21 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_1_login.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="Twisted Trial in test_2_sale.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="XiuDian" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_2_sale.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="Twisted Trial in test_3_baidu.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -453,36 +495,21 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_3_baidu.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Twisted Trial in test_seven.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="XiuDian" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_seven.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_seven.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_1_login.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Twisted Trial for test_3_baidu.TestBaidu.test_dome" />
-      <item index="4" class="java.lang.String" itemvalue="Python.conftest" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_3_baidu.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_1_login.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Twisted Trial for test_3_baidu.TestBaidu.test_dome" />
+      <item index="3" class="java.lang.String" itemvalue="Python.conftest" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_3_baidu.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_2_sale.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_3_baidu.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.conftest" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Twisted Trial for test_3_baidu.TestBaidu.test_dome" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_1_login.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_seven.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_2_sale.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_3_baidu.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.conftest" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Twisted Trial for test_3_baidu.TestBaidu.test_dome" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_1_login.py" />
       </list>
     </recent_temporary>
   </component>
@@ -505,6 +532,14 @@
       <workItem from="1560910223929" duration="6347000" />
       <workItem from="1560996677884" duration="26098000" />
     </task>
+    <task id="LOCAL-00001" summary="you hua code">
+      <created>1562309926790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562309926791</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -523,11 +558,11 @@
     <history-entry file="Twisted_Trial_in_test_1_login_py - 2019.07.05 at 14h 25m 45s.xml">
       <configuration name="Twisted Trial in test_1_login.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Twisted_Trial_in_test_2_sale_py - 2019.07.05 at 15h 01m 25s.xml">
+      <configuration name="Twisted Trial in test_2_sale.py" configurationId="tests" />
+    </history-entry>
     <history-entry file="Twisted_Trial_in_test_3_baidu_py - 2019.07.05 at 14h 53m 42s.xml">
       <configuration name="Twisted Trial in test_3_baidu.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Twisted_Trial_in_test_seven_py - 2019.07.04 at 19h 41m 19s.xml">
-      <configuration name="Twisted Trial in test_seven.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Twisted_Trial_in_test_seven_py - 2019.07.04 at 19h 42m 07s.xml">
       <configuration name="Twisted Trial in test_seven.py" configurationId="tests" />
@@ -553,14 +588,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.49490538" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45394737" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44407895" sideWeight="0.48184568" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42598686" sideWeight="0.5030257" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.204236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44407895" sideWeight="0.47881997" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36019737" sideWeight="0.52118003" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.204236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -582,6 +618,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="you hua code" />
+    <option name="LAST_COMMIT_MESSAGE" value="you hua code" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="7" />
@@ -589,31 +629,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bdd/steps/search_steps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-          <folding>
-            <element signature="e#86#106#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd/search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-234514117/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="2843" column="12" lean-forward="false" selection-start-line="2843" selection-start-column="12" selection-end-line="2843" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -659,14 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="148" column="15" lean-forward="false" selection-start-line="148" selection-start-column="14" selection-end-line="148" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/login_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -859,38 +866,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/loginpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-          <folding>
-            <element signature="e#88#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/basepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#104#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/201907051425.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -906,25 +885,89 @@
     <entry file="file://$PROJECT_DIR$/case/test_3_baidu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_1_login.py">
+    <entry file="file://$PROJECT_DIR$/case/test_2_sale.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="756">
+          <caret line="48" column="43" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+          <folding>
+            <element signature="e#16#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_2_sale.py">
+    <entry file="file://$PROJECT_DIR$/case/ItemCase/test_2_xiudian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/ItemCase/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="e#104#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/ItemCase/test_1_xiudian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_1_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding>
+            <element signature="e#88#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/login_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="66" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="88" />
           <folding />
         </state>
       </provider>

@@ -1,4 +1,0 @@
-url=http://www.baidu.com
-username=username
-password=password
-login=//*[@id="app"]/div/form/button
